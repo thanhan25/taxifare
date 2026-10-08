@@ -8,7 +8,13 @@ authors = [
 ]
 requires-python = ">=3.12.9"
 dependencies = [
+    "bigquery>=0.0.45",
+    "db-dtypes>=1.7.2",
+    "google-cloud-bigquery[pandas]>=3.46.1",
+    "matplotlib>=3.11.2",
     "pandas<3",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
 ]
 
 [project.scripts]
