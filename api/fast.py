@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import pandas as pd
-# from zoologist.predict import load_model, predict
+## from zoologist.predict import load_model, predict
 
 app = FastAPI()
 # Load the model in the global scope
