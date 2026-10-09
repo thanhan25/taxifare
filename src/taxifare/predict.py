@@ -1,7 +1,11 @@
 import joblib
 import pandas as pd
 
-MODEL_PATH = '../models/linreg_pipeline.joblib'
+from sklearn import set_config
+set_config(transform_output="pandas")
+
+
+MODEL_PATH = 'models/linreg_pipeline.joblib'
 
 def load_model(MODEL_PATH):
     """
